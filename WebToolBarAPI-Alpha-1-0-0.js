@@ -1,1 +1,1 @@
-var ToolBar = new Object();
+var WebToolBarAPI = new Object();
