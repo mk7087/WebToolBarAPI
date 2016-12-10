@@ -1,4 +1,4 @@
-var WebToolBarAPI = new Object();
-WebToolBarAPI.versionType = 'alpha';
-WebToolBarAPI.version = 1.0;
-WebToolBarAPI.isMinimum = false;
+var webToolBarAPI = new Object();
+webToolBarAPI.versionType = 'alpha';
+webToolBarAPI.version = 1.0;
+webToolBarAPI.isMinimum = false;
