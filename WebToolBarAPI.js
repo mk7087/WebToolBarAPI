@@ -9,11 +9,9 @@ function initToolBarsContainer() {
   document.body.appendChild(toolBarsContainer);
 }
 
-try {
-  window.addEventListener('DOMContentLoaded', initToolBarsContainer, false); 
-} catch (e) {
-  if( window.navigator.userAgent.match(/(msie|MSIE)/) || window.navigator.userAgent.match(/(T|t)rident/) ) {
-    window.attachEvent('onload', toolBarsContainerFunc);
-  }
+if( window.navigator.userAgent.match(/(msie|MSIE)/) || window.navigator.userAgent.match(/(T|t)rident/) ) {
+  window.attachEvent('onload', toolBarsContainerFunc);
+}else{
+  window.addEventListener('DOMContentLoaded', initToolBarsContainer, false);
 }
 var ToolBars = [];
