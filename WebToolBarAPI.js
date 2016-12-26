@@ -15,4 +15,4 @@ try {
   //If InternetExplorer 
   window.attachEvent('onload', toolBarsContainerFunc); 
 }
-var ToolBars = new Array(0);
+var ToolBars = [];
