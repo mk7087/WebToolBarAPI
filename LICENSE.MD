@@ -1,4 +1,4 @@
-####Edwec license
+####WebToolBarAPI license
 Copyright (c) 2016 mk7087 All Rights Reserved.  
 
 - We allow you to copy of these files.  
