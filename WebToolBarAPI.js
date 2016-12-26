@@ -3,7 +3,7 @@ webToolBarAPI.versionType = 'alpha';
 webToolBarAPI.version = 1.0;
 webToolBarAPI.isMinimum = false;
 
-function toolBarsContainerFunc(){
+function toolBarsContainerFunc() {
   var toolBarsContainer = document.createElement('div');
   toolBarsContainer.id = 'tbContainer';
   document.getElementsByTagName('body')[0].appendChild(toolBarsContainer);
