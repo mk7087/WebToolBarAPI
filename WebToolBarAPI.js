@@ -11,8 +11,9 @@ function initToolBarsContainer() {
 
 try {
   window.addEventListener('DOMContentLoaded', initToolBarsContainer, false); 
-} catch (e) { 
-  //If InternetExplorer 
-  window.attachEvent('onload', toolBarsContainerFunc); 
+} catch (e) {
+  if( window.navigator.userAgent.match(/(msie|MSIE)/) || window.navigator.userAgent.match(/(T|t)rident/) ) {
+    window.attachEvent('onload', toolBarsContainerFunc);
+  }
 }
 var ToolBars = [];
