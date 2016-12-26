@@ -10,7 +10,7 @@ function toolBarsContainerFunc() {
 }
 
 try {
-  window.addEventListener('load, toolBarsContainerFunc, false); 
+  window.addEventListener('DOMContentLoaded', toolBarsContainerFunc, false); 
 } catch (e) { 
   //If InternetExplorer 
   window.attachEvent('onload', toolBarsContainerFunc); 
