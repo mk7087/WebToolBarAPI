@@ -10,7 +10,7 @@ function initToolBarsContainer() {
 }
 
 if( window.navigator.userAgent.match(/(msie|MSIE)/) || window.navigator.userAgent.match(/(T|t)rident/) ) {
-  window.attachEvent('onload', toolBarsContainerFunc);
+  window.attachEvent('onload', initToolBarsContainer);
 }else{
   window.addEventListener('DOMContentLoaded', initToolBarsContainer, false);
 }
