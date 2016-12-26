@@ -6,7 +6,7 @@ webToolBarAPI.isMinimum = false;
 function toolBarsContainerFunc() {
   var toolBarsContainer = document.createElement('div');
   toolBarsContainer.id = 'tbContainer';
-  document.getElementsByTagName('body')[0].appendChild(toolBarsContainer);
+  document.body.appendChild(toolBarsContainer);
 }
 
 try {
