@@ -10,9 +10,9 @@ function toolBarsContainerFunc(){
 }
 
 try {
-  window.addEventListener("load", toolBarsContainerFunc, false); 
+  window.addEventListener('load, toolBarsContainerFunc, false); 
 } catch (e) { 
   //If InternetExplorer 
-  window.attachEvent("onload", toolBarsContainerFunc); 
+  window.attachEvent('onload', toolBarsContainerFunc); 
 }
 var ToolBars = new Array(0);
