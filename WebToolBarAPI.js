@@ -14,4 +14,4 @@ if (window.navigator.userAgent.match(/(msie|MSIE)/) || window.navigator.userAgen
 } else {
   window.addEventListener('DOMContentLoaded', initToolBarsContainer, false);
 }
-var ToolBars = [];
+var toolBars = [];
