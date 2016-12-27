@@ -9,7 +9,7 @@ function initToolBarsContainer() {
   document.body.appendChild(toolBarsContainer);
 }
 
-if(window.navigator.userAgent.match(/(msie|MSIE)/) || window.navigator.userAgent.match(/(T|t)rident/)) {
+if (window.navigator.userAgent.match(/(msie|MSIE)/) || window.navigator.userAgent.match(/(T|t)rident/)) {
   window.attachEvent('onload', initToolBarsContainer);
 } else {
   window.addEventListener('DOMContentLoaded', initToolBarsContainer, false);
